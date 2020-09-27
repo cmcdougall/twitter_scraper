@@ -31,7 +31,7 @@ docker build . -t twitter_scraper
 Run the Docker Image by executing the following:
 
 ```
-docker run -p 5000:5000 twitter_scraper python -u main.py --account swiftonsecurity
+docker run -p 5000:5000 twitter_scraper python -u main.py --account <twitter account to scrape>
 ```
 
 Usage details will be displayed if the python command or the account argument is omitted.
